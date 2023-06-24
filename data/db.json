@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Hello, World!",
+      "description": "Creating simple react application",
+      "priority": "Medium"
+    },
+    {
+      "title": "Prof Elect 2 Week 15 Activity",
+      "description": "Install Anacondas and do the activity",
+      "priority": "High",
+      "id": 3
+    },
+    {
+      "title": "ReactJs Project",
+      "description": "Watch a tutorial on how to developed a CRUD app",
+      "priority": "Medium",
+      "id": 4
+    }
+  ]
+}
