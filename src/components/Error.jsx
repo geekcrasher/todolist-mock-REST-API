@@ -16,7 +16,7 @@ const Error = ({ isError }) => {
               href="/"
               className="bg-blue-600 py-2 px-2 rounded-md text-xs md:text-sm text-gray-100 font-semibold pointer"
             >
-              Reload the page
+              Refresh the page
             </a>
           </div>
         </div>
