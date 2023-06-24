@@ -4,9 +4,9 @@ const Error = ({ isError }) => {
   return (
     <div className="flex justify-center items-center sm:mt-16 md:mt-0">
       {isError && (
-        <div className="text-center border">
-          <div className="xs:w-64 md:w-72 border">
-            <img src="src/assets/illustration/no-data.svg" alt="error" />
+        <div className="text-center">
+          <div className="xs:w-64 md:w-72">
+            <img src="./images/no-data.svg" alt="error" />
           </div>
           <div className="">
             <p className="xs:text-xs md:text-sm text-neutral-400 font-semibold mb-6">

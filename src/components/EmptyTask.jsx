@@ -6,7 +6,7 @@ const EmptyTask = ({todos}) => {
       {todos?.data?.length < 1 && (
         <div className="text-center ">
           <div className="xs:w-64 md:w-72 border-sky-600 ">
-            <img src="src/assets/illustration/no-data-pana.svg" alt="error" />
+            <img src="./images/no-data-pana.svg" alt="error" />
           </div>
           <div className="">
             <p className="xs:text-xs md:text-sm text-neutral-400 font-semibold mt-4">
