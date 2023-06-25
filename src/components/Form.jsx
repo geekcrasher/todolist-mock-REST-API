@@ -12,7 +12,7 @@ const Form = ({onSubmit, title, taskTitle, description, taskDescription, priorit
       <form onSubmit={onSubmit}>
          <Fieldset 
             htmlFor="title"
-            label="Title"
+            label="Task Title"
          >
           <input
             className="w-64 h-6 p-4 rounded-md text-text_light dark:text-primary text-sm outline-0 bg-task dark:bg-task_dark placeholder:text-light_gray dark:placeholder:text-secondary focus:ring-1 focus:ring-sky-600"
@@ -21,6 +21,7 @@ const Form = ({onSubmit, title, taskTitle, description, taskDescription, priorit
             name="title"
             onChange={taskTitle}
             placeholder='e.g. Do homework'
+            maxLength={60}
             required
           />
         </Fieldset>
@@ -35,6 +36,7 @@ const Form = ({onSubmit, title, taskTitle, description, taskDescription, priorit
             name="description"
             onChange={taskDescription}
             placeholder='Answer the questions from p.25...'
+            // maxLength={270}
             required
           />
         </Fieldset>
