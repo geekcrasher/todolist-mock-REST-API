@@ -25,7 +25,7 @@ export default {
         light_gray: "#c5c5c7",
         title: "#F86465",
         text_light: "#3C3C43",
-        decr: '#7c7c7f'
+        semi_dark: '#7c7c7f'
       },
       backgroundColor: {
         main_dark: "#1E1E20",
@@ -40,10 +40,13 @@ export default {
         semi: "#e7e7e8",
         secondary: "#333",
       },
+      height: {
+         '22': "88px",
+      },
       minHeight: {
         "60vh": "60vh",
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide'), ],
 };
