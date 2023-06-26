@@ -36,7 +36,7 @@ const Form = ({onSubmit, title, taskTitle, description, taskDescription, priorit
             name="description"
             onChange={taskDescription}
             placeholder='Answer the questions from p.25...'
-            // maxLength={270}
+            maxLength={230}
             required
           />
         </Fieldset>
