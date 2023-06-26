@@ -5,18 +5,6 @@
       "title": "Hello, World!",
       "description": "Creating simple react application",
       "priority": "Medium"
-    },
-    {
-      "title": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius culpa, nam quia facilis magni iure sit praesentium consequuntur delectus quidem in, cupiditate fugit. Maiores repellat natus, ab explicabo quis sequi.",
-      "priority": "Low",
-      "id": 2
-    },
-    {
-      "title": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius culpa, nam quia facilis magni iure sit praesentium consequuntur delectus quidem in, cupiditate fugit. Maiores repellat natus, ab explicabo quis sequi.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius culpa, nam quia facilis magni iure sit praesentium consequuntur delectus quidem in, cupiditate fugit. Maiores repellat natus, ab explicabo quis sequi.",
-      "priority": "Low",
-      "id": 3
     }
   ]
 }
