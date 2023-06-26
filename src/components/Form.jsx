@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import { Plus } from 'lucide-react';
 import Fieldset from "./Fieldset";
+import AddTask from './AddTask';
 
 
 const Form = ({onSubmit, title, taskTitle, description, taskDescription, priorityLevel}) => {
@@ -36,7 +36,7 @@ const Form = ({onSubmit, title, taskTitle, description, taskDescription, priorit
             name="description"
             onChange={taskDescription}
             placeholder='Answer the questions from p.25...'
-            maxLength={230}
+            maxLength={270}
             required
           />
         </Fieldset>
@@ -57,18 +57,9 @@ const Form = ({onSubmit, title, taskTitle, description, taskDescription, priorit
             </label>
           ))}
         </Fieldset>
-
-        <div className='mt-8 flex justify-end'>
-           <button 
-             type="submit" 
-             className="flex justify-center items-center w-24 md:w-28 h-8 text-xs md:text-sm font-medium cursor-pointer text-gray-50 rounded-md bg-pink_primary transition ease-out duration-150 hover:bg-pink_secondary active:bg-pink_primary"
-           >
-           <span className='mr-1'>
-             <Plus size={16} color='#fff'/>
-           </span>
-             Add Todo
-           </button>
-        </div>
+        
+        <AddTask />
+        
       </form>
     );
 }
