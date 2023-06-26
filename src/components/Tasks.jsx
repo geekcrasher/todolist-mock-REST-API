@@ -16,7 +16,7 @@ const Tasks = ({ todos, deleteTodoMutation }) => {
                   {task.title}
                 </h1>
               </div>
-              <div className="h-22 mt-2 overflow-hidden overflow-y-scroll scrollbar-hide">
+              <div className="h-fit mt-2 overflow-hidden">
                 <p className=" text-secondary dark:text-semi_dark tracking-wide text-sm break-words overflow-hidden">
                   {task.description}
                 </p>
