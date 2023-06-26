@@ -68,7 +68,7 @@ const TodoList = () => {
           taskDescription={taskDescription}
           priorityLevel={priorityLevel}
         />
-      </section>
+      </section>S
       <section className="w-full p-4 flex justify-center items-center absolute top-80 xs:mt-28 md:mt-14 min-h-60vh rounded-lg">
         <section className="grid w-12/12 xs:w-11/12 md:w-9/12 lg:w-12/12 xl:w-10/12 mxl:w-10/12 xxl:w-9/12 grid-cols-1 lg:grid-cols-2 mxl:grid-cols-3 gap-6">
             <Tasks todos={todos} deleteTodoMutation={deleteTodoMutation}/>   
