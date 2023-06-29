@@ -9,7 +9,7 @@ import EmptyTask from "./EmptyTask";
 import Tasks from "./Tasks";
 
 const fetcher = () => {
-  return axios.get("http://localhost:4000/todos");
+  return axios.get("/todos");
 };
 
 const TodoList = () => {
